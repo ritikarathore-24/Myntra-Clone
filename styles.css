@@ -148,6 +148,13 @@
     font-weight: 700;
     text-align: center;
     vertical-align: middle;
+} 
+
+.arrow {
+    transform: rotate(180deg);
+    font-size: 100px;
+    vertical-align: middle;
+    font-variation-settings: 'wght' 700, 'opsz' 48;
 }
 
 /*Banner*/
@@ -203,13 +210,13 @@
 }
 
 .main_banner {
-    height: 500px;
+    height: 420px;
     width: 1430px;
     background-color: #0367c8;
     margin: 10px 0 0 40px;
     display: flex;  
 
-    border: 2px solid black;
+    /* border: 2px solid black */;
 }
 
 .mega_sale {
@@ -222,34 +229,83 @@
 }
 
 .mega_sale_inner {
-    height: 150px;
-    width: 300px;
-    background-color:olivedrab;
+    height: 120px;
+    width: 250px;
     display: grid;
-    grid-template-columns: 80% 20%;
-    grid-template-rows: 90%;
-    font-size: 25px;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 33px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 #mega1 {
-    color: #c4ed70;
+    color: #fcfdfb;
+    background-color: #1e6f3f;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    border: 2.5px solid #ffa2ff;
+    border-radius: 10px;
+    margin: 0 1px 1px 0;
 }
 
 #mega2 {
-        background-color: rgb(249, 200, 208);
-        color: olivedrab;
-
+        background-color: #ffa2ff;
+        color: #1e6f3f;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        font-weight: bolder;
+        border-radius: 10px;
+        margin: 0 0 1px 1px ;
 }
 
 #mega3 {
-    color: #c4ed70;
+    color: #fcfdfb;
+    background-color: #1e6f3f;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 100%;
+    border: 2.5px solid #ffa2ff;
+    border-radius: 10px;
+    margin: 1px 0 0 0 ;
+
 }
+
+#mega4 {
+    height: 120px;
+    width: 40px;
+    color: #1e6f3f;
+    background-color: #ffa2ff;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin-left: 1.5px;
+}
+
+
 
 .banner img {
     height: 100%;
-    width: 600px;
+    width: 550px;
 }
 
 .fifty{
@@ -279,7 +335,7 @@
     font-size: 50px;
     font-weight: bold;
     color: white;
-    border: 4px solid rgb(249, 200, 208);
+    border: 4px solid #ffa2ff;
     border-radius: 10px;
 }
 
@@ -292,7 +348,7 @@
     font-size: 50px;
     font-weight: bold;
     color:#0367c8;
-    background-color: rgb(249, 200, 208);
+    background-color: #ffa2ff;
     text-transform: uppercase;
 }
 
