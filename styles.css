@@ -133,7 +133,7 @@
     position: fixed;
     right: 1%;
     bottom: 130px;
-    width: 36x;
+    width: 36px;
     height: 300px;
     padding: 4px;
     background-color: #535766;
@@ -149,3 +149,160 @@
     text-align: center;
     vertical-align: middle;
 }
+
+/*Banner*/
+
+.first_purchase {
+    height: 79px;
+    width: 1250px;
+    position: relative;
+    left: 120px;
+    margin-top: 25px;
+    background-color: #0367c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 50px 50px 0;
+}
+
+.off {
+    height: 100%;
+    width: 60%;
+    padding-left: 80px;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.app {
+    height: 100%;
+    width: 40%;
+    padding-left: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-left: 2px dashed white;
+    text-transform: capitalize;
+     color: white;
+    font-size: 22px;
+    box-sizing: border-box;
+}
+
+
+.first_purchase .app img {
+    height: 28px;
+    width: auto;
+    vertical-align: middle;
+    margin: 0 3px;
+}
+
+.main_banner {
+    height: 500px;
+    width: 1430px;
+    background-color: #0367c8;
+    margin: 10px 0 0 40px;
+    display: flex;  
+
+    border: 2px solid black;
+}
+
+.mega_sale {
+    height: 100%;
+    width:45%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mega_sale_inner {
+    height: 150px;
+    width: 300px;
+    background-color:olivedrab;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 90%;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#mega1 {
+    color: #c4ed70;
+}
+
+#mega2 {
+        background-color: rgb(249, 200, 208);
+        color: olivedrab;
+
+}
+
+#mega3 {
+    color: #c4ed70;
+}
+
+.banner img {
+    height: 100%;
+    width: 600px;
+}
+
+.fifty{
+    float: right;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_quote {
+    display: block;
+}
+
+.percentage_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.percentage {
+    height: 80px;
+    width: 220px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    border: 4px solid rgb(249, 200, 208);
+    border-radius: 10px;
+}
+
+.per {
+    height: 80px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:#0367c8;
+    background-color: rgb(249, 200, 208);
+    text-transform: uppercase;
+}
+
+.quote {
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    color: white;
+    padding-left: 20px;
+}
+
