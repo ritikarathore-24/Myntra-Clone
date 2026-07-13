@@ -16,6 +16,10 @@
     align-items: center;
     background-color: white;
     box-shadow: 3px 0 10px rgb(230, 227, 227);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 /*Logo*/
@@ -131,7 +135,7 @@
 
 .side_tag {
     position: fixed;
-    right: 1%;
+    right: 0.5%;
     bottom: 130px;
     width: 36px;
     height: 300px;
@@ -447,3 +451,95 @@
     position: relative;
     left: 70px;
 } 
+
+/*Budget Bargains Page*/
+
+.bargain_container h1 {
+    color: #653ddf;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.offer_container {
+    height: 420px;
+    width: 1430px;
+    margin: 10px 0 0 40px;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.offers img{
+    height: 365px;
+    width: 265px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.offers {
+    width: 265px;
+    height: 370px;
+    /* background-color: #0367c8; */
+    border-radius: 10px;
+    border: 2px solid rgba(234, 229, 229, 0.938);
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worthy_tag {
+    background-color: #653ddf;
+    height: 72px;
+    width: 350px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    left: 40%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    padding-top: 8px;
+}
+
+.worthy_tag::before {
+    content: "";
+    width: 53px;
+    height: 53px;
+    background-color: #653ddf;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    border-radius: 3px;
+} 
+
+.worthy_tag .circle {
+    color: rgb(230, 227, 227);
+    font-size: 10px;
+    position: absolute;
+    left: -8px;
+    top: 40%;
+    transform: translateX(-10%);
+}
+
+.worthy_tag h2 {
+    color:rgb(230, 227, 227);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.worthy_tag p {
+    text-transform: capitalize;
+    color:rgb(230, 227, 227);
+    font-weight: 450;
+}
+
+.worthy_tag .right_angle {
+    background-color: white;
+    color: #653ddf;
+}
+
