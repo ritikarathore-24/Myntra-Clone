@@ -301,7 +301,28 @@
     margin-left: 1.5px;
 }
 
+.unisex {
+    background-color: white;
+    color: #0367c8;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    font-weight:500;
+    font-size: medium;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 190px;
+}
 
+#him {
+    left: 50px;
+}
+
+#her {
+    right: 350px;
+}
 
 .banner img {
     height: 100%;
