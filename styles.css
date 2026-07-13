@@ -407,3 +407,43 @@
 .shop_now .right_angle {
     color: #ffa2ff;
 }
+
+.rupee {
+    font-size: 20px;
+} 
+
+.side_tag .rupee {
+     transform: rotate( 90deg);
+}
+
+.bottom_part {
+    display: flex;
+}
+
+.border_box {
+    border: 2px solid #0367c8;
+    height: 60px;
+    width: 1370px; 
+    position: relative;
+    left: 70px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.border_box h3 {
+    font-size: 25px;
+}
+
+.border_box p {
+    color:#535766;
+    font-weight: 500;
+}
+
+#T_C {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-size: 10px;
+    position: relative;
+    left: 70px;
+} 
