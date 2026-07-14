@@ -135,7 +135,7 @@
 
 .side_tag {
     position: fixed;
-    right: 0.5%;
+    right: 0;
     bottom: 130px;
     width: 36px;
     height: 300px;
@@ -214,7 +214,7 @@
 
 .main_banner {
     height: 420px;
-    width: 1430px;
+    width: 1420px;
     background-color: #0367c8;
     margin: 10px 0 0 40px;
     display: flex;  
@@ -399,7 +399,7 @@
     justify-content: space-evenly;
     background-color: #ffa2ff;
     height: 30px;
-    width: 1430px;
+    width: 1420px;
     margin: 0 0 0 40px;
     color: #0367c8;
     font-size: 18px;
