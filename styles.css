@@ -555,7 +555,7 @@
 }
 
 .category_container {
-    height: 800px;
+    height: 1000px;
     width: 1430px;
     margin: 8px 12px 0 50px;
     display: flex;  
@@ -579,5 +579,28 @@
     width: 100%;
     object-fit: fill;
     display: block;
+}
+
+/* Knockout Page */
+
+.knockout {
+    height: 200px;
+    width: 1350px;
+    border: 5px solid #0367c8;
+    background-color: #fbe3c4;
+    margin: 10px 12px 0 80px;
+    display: flex;
+    align-items: center;
+}
+
+.knock_img img {
+    height: 230px;
+    position: relative;
+    bottom: 18px;
+}
+
+.knockout_offer p img {
+    height: 50px;
+    width: 50px;
 }
 
