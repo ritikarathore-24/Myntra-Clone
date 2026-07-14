@@ -585,22 +585,104 @@
 
 .knockout {
     height: 200px;
-    width: 1350px;
+    width: 1300px;
     border: 5px solid #0367c8;
     background-color: #fbe3c4;
-    margin: 10px 12px 0 80px;
+    margin: 10px 12px 0 100px;
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
 .knock_img img {
-    height: 230px;
+    height: 250px;
     position: relative;
-    bottom: 18px;
+    bottom: 28px;
 }
 
+.knockout_offer {
+    display: block;
+    color:#0367c8;
+    text-align: center;
+    line-height: 20px;
+}
+
+.knockout_offer h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.knockout_offer p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.download_text {
+    font-size: 16px;
+    font-weight: bold;
+    color:#0367c8;
+}
+
+.store_buttons_container {
+    display: flex;;
+    gap: 15px;
+}
+
+.store {
+    height: 45px;
+    width: 145px;
+    border: 1px solid #d4d5d9;
+    border-radius: 8px;
+    background-color: white;
+    color:#535766;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 10px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.store i {
+    font-size: 20px;
+    color: #282c3f;
+}
+
+.store_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.store .sub_text {
+    font-size: 9px;
+    color: #7e808c;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.store .main_text {
+    font-size: 13px;
+    font-weight: 700;
+    color: #282c3f;
+    margin: 0;
+    line-height: 1.2;
+}
+ 
 .knockout_offer p img {
-    height: 50px;
-    width: 50px;
+     height: 28px;
+    width: auto;
+    vertical-align: middle;
+    margin: 0 3px;
 }
-
