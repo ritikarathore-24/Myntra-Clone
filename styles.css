@@ -743,11 +743,23 @@
     margin:18px 0 28px;
 }
 
-.app-btns img{
-    width:140px;
-    height:auto;
-    display:block;
+.app-btns .store {
+    background-color: black;
+    box-shadow: none;
 }
+
+.app-btns .store .sub_text {
+    color: white;
+}
+
+.app-btns .store .main_text {
+    color: white;
+}
+
+.app-btns .store .foot_btn {
+    color: white;
+}
+
 
 .social{
     display:flex;
