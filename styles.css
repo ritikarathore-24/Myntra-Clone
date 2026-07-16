@@ -9,7 +9,7 @@
 
 .header {
     height: 8vh;
-    width: 100vw;
+    width: 100%;
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
@@ -214,9 +214,10 @@
 
 .main_banner {
     height: 420px;
-    width: 1420px;
+    width:95%;
+    max-width:1420px;
+    margin:10px auto;
     background-color: #0367c8;
-    margin: 10px 0 0 40px;
     display: flex;  
 
     /* border: 2px solid black */;
@@ -465,8 +466,9 @@
 
 .offer_container {
     height: 420px;
-    width: 1430px;
-    margin: 10px 0 0 40px;
+    width:95%;
+    max-width:1430px;
+    margin:10px auto;
     display: flex;
     justify-content: space-around;  
 }
@@ -556,8 +558,9 @@
 
 .category_container {
     height: 1000px;
-    width: 1430px;
-    margin: 8px 12px 0 50px;
+    width:95%;
+    max-width:1430px;
+    margin:auto;
     display: flex;  
     flex-wrap: wrap;
     justify-content: center;
@@ -614,10 +617,11 @@
 
 .knockout {
     height: 200px;
-    width: 1300px;
+    width:90%;
+    max-width:1300px;
+    margin:20px auto;
     border: 5px solid #0367c8;
     background-color: #fbe3c4;
-    margin: 10px 12px 0 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
