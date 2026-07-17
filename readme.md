@@ -201,9 +201,9 @@ No copyright infringement is intended.
 
 # Author
 
-### Ritika Rathore
+### <u>Ritika Rathore </u>
 
-### Github :
+### <u> Github Link: </u>
 
 https://github.com/ritikarathore-24
 
